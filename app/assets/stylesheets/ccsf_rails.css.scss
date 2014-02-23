@@ -7,7 +7,7 @@ $font-family:arial, helvetica;
 $font-size:9pt;
 $color:black;
 
-body { background-color:$background-color; font-family:$font-family; color:$color; }
-p { font-family: times; background-color:pink; text-align:justify;}
+body { background-color:$background-color; font-family:$font-family; color:$color; font-size:$font-size; }
+p { font-family: $font-family; font-size:$font-size; background-color:pink; text-align:center;}
 div { font-family:$font-family;}
-a { color:$color; text-decoration: none;}
+a { color:pink; text-decoration: none;}
