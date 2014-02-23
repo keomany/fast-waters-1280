@@ -1,0 +1,13 @@
+// Place all the styles related to the ccsf_rails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$background-color:white;
+$font-family:arial, helvetica;
+$font-size:9pt;
+$color:black;
+
+body { background-color:$background-color; font-family:$font-family; color:$color; }
+p { font-family: times; background-color:pink; text-align:justify;}
+div { font-family:$font-family;}
+a { color:$color; text-decoration: none;}
