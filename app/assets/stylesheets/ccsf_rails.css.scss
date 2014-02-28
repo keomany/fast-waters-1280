@@ -12,7 +12,7 @@ p { font-family: $font-family; font-size:$font-size; background-color:pink; text
 div { font-family:$font-family; position:fixed; top: 75px;}
 a { color:pink; text-decoration: none;}
 a:hover {color:white; }
-table { top: 500px; }
+table { top: 0px; left:0px;}
 td { padding: 25px 25px 25px 25px; width: 200px; height: 200px; }
 #header { position:fixed; top: 0px; left:0px}
 
