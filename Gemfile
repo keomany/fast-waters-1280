@@ -12,6 +12,9 @@ gem 'sass-rails', '~> 4.0.0'
 # Photo gallery
 gem "spud_photos", "~> 0.9.4"
 
+# Unicorn server
+ gem 'unicorn'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
