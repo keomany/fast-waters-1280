@@ -11,6 +11,9 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.ui.all
 //= require jquery_ujs
-//= require turbolinks
+//= require underscore
+//= require backbone
+//= require svitla_test
 //= require_tree .
