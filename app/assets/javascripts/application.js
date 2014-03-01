@@ -14,6 +14,4 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready ->
-  $("img.lazy").lazyload effect: "fadeIn"
-  return
+$("img").lazyload();
