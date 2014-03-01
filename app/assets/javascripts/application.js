@@ -11,9 +11,10 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery.ui.all
 //= require jquery_ujs
-//= require underscore
-//= require backbone
-//= require svitla_test
+//= require turbolinks
 //= require_tree .
+
+$(document).ready ->
+  $("img.lazy").lazyload effect: "fadeIn"
+  return
