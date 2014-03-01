@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery.lazyload.js
-//= require jquery.ui.all
 //= require turbolinks
 //= require_tree .
 
