@@ -11,8 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery.lazyload.js
+//= require jquery.lazyload
 //= require turbolinks
-//= require_tree .
-
-$("img.lazy").lazyload effect: "fadeIn"
+//= require_tree 
