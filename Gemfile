@@ -6,6 +6,8 @@ gem 'rails', '4.0.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+gem 'sqlite3'
+
 # Photo gallery
 gem "spud_photos", "~> 0.9.4"
 
