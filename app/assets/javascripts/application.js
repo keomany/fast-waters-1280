@@ -11,6 +11,6 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery.lazyload
+//= require jquery.lazyload.js
 //= require turbolinks
 //= require_tree 
