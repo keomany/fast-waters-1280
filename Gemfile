@@ -40,7 +40,9 @@ group :production do
    gem 'pg'
  end
 
-gem 'rails_12factor', group: :production
+group :production, :staging do
+  gem 'rails_12factor' 
+end
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
